@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8429C0752447DB110037178F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0742447DB110037178F /* AppDelegate.swift */; };
+		8429C0772447DB110037178F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0762447DB110037178F /* SceneDelegate.swift */; };
+		8429C0792447DB110037178F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0782447DB110037178F /* ContentView.swift */; };
+		8429C07B2447DB140037178F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429C07A2447DB140037178F /* Assets.xcassets */; };
+		8429C07E2447DB140037178F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8429C07D2447DB140037178F /* Preview Assets.xcassets */; };
+		8429C0812447DB140037178F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8429C07F2447DB140037178F /* LaunchScreen.storyboard */; };
+		8429C08C2447DB140037178F /* CovitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C08B2447DB140037178F /* CovitTests.swift */; };
+		8429C0972447DB140037178F /* CovitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429C0962447DB140037178F /* CovitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8429C0882447DB140037178F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8429C0692447DB110037178F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8429C0702447DB110037178F;
+			remoteInfo = Covit;
+		};
+		8429C0932447DB140037178F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8429C0692447DB110037178F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8429C0702447DB110037178F;
+			remoteInfo = Covit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8429C0712447DB110037178F /* Covit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429C0742447DB110037178F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8429C0762447DB110037178F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8429C0782447DB110037178F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8429C07A2447DB140037178F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8429C07D2447DB140037178F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8429C0802447DB140037178F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8429C0822447DB140037178F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8429C0872447DB140037178F /* CovitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429C08B2447DB140037178F /* CovitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovitTests.swift; sourceTree = "<group>"; };
+		8429C08D2447DB140037178F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8429C0922447DB140037178F /* CovitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429C0962447DB140037178F /* CovitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovitUITests.swift; sourceTree = "<group>"; };
+		8429C0982447DB140037178F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8429C06E2447DB110037178F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429C0842447DB140037178F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429C08F2447DB140037178F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8429C0682447DB110037178F = {
+			isa = PBXGroup;
+			children = (
+				8429C0732447DB110037178F /* Covit */,
+				8429C08A2447DB140037178F /* CovitTests */,
+				8429C0952447DB140037178F /* CovitUITests */,
+				8429C0722447DB110037178F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8429C0722447DB110037178F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8429C0712447DB110037178F /* Covit.app */,
+				8429C0872447DB140037178F /* CovitTests.xctest */,
+				8429C0922447DB140037178F /* CovitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8429C0732447DB110037178F /* Covit */ = {
+			isa = PBXGroup;
+			children = (
+				8429C0742447DB110037178F /* AppDelegate.swift */,
+				8429C0762447DB110037178F /* SceneDelegate.swift */,
+				8429C0782447DB110037178F /* ContentView.swift */,
+				8429C07A2447DB140037178F /* Assets.xcassets */,
+				8429C07F2447DB140037178F /* LaunchScreen.storyboard */,
+				8429C0822447DB140037178F /* Info.plist */,
+				8429C07C2447DB140037178F /* Preview Content */,
+			);
+			path = Covit;
+			sourceTree = "<group>";
+		};
+		8429C07C2447DB140037178F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8429C07D2447DB140037178F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8429C08A2447DB140037178F /* CovitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8429C08B2447DB140037178F /* CovitTests.swift */,
+				8429C08D2447DB140037178F /* Info.plist */,
+			);
+			path = CovitTests;
+			sourceTree = "<group>";
+		};
+		8429C0952447DB140037178F /* CovitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8429C0962447DB140037178F /* CovitUITests.swift */,
+				8429C0982447DB140037178F /* Info.plist */,
+			);
+			path = CovitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8429C0702447DB110037178F /* Covit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8429C09B2447DB140037178F /* Build configuration list for PBXNativeTarget "Covit" */;
+			buildPhases = (
+				8429C06D2447DB110037178F /* Sources */,
+				8429C06E2447DB110037178F /* Frameworks */,
+				8429C06F2447DB110037178F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Covit;
+			productName = Covit;
+			productReference = 8429C0712447DB110037178F /* Covit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8429C0862447DB140037178F /* CovitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8429C09E2447DB140037178F /* Build configuration list for PBXNativeTarget "CovitTests" */;
+			buildPhases = (
+				8429C0832447DB140037178F /* Sources */,
+				8429C0842447DB140037178F /* Frameworks */,
+				8429C0852447DB140037178F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8429C0892447DB140037178F /* PBXTargetDependency */,
+			);
+			name = CovitTests;
+			productName = CovitTests;
+			productReference = 8429C0872447DB140037178F /* CovitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8429C0912447DB140037178F /* CovitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8429C0A12447DB140037178F /* Build configuration list for PBXNativeTarget "CovitUITests" */;
+			buildPhases = (
+				8429C08E2447DB140037178F /* Sources */,
+				8429C08F2447DB140037178F /* Frameworks */,
+				8429C0902447DB140037178F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8429C0942447DB140037178F /* PBXTargetDependency */,
+			);
+			name = CovitUITests;
+			productName = CovitUITests;
+			productReference = 8429C0922447DB140037178F /* CovitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8429C0692447DB110037178F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = usuario;
+				TargetAttributes = {
+					8429C0702447DB110037178F = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					8429C0862447DB140037178F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8429C0702447DB110037178F;
+					};
+					8429C0912447DB140037178F = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 8429C0702447DB110037178F;
+					};
+				};
+			};
+			buildConfigurationList = 8429C06C2447DB110037178F /* Build configuration list for PBXProject "Covit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8429C0682447DB110037178F;
+			productRefGroup = 8429C0722447DB110037178F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8429C0702447DB110037178F /* Covit */,
+				8429C0862447DB140037178F /* CovitTests */,
+				8429C0912447DB140037178F /* CovitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8429C06F2447DB110037178F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429C0812447DB140037178F /* LaunchScreen.storyboard in Resources */,
+				8429C07E2447DB140037178F /* Preview Assets.xcassets in Resources */,
+				8429C07B2447DB140037178F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429C0852447DB140037178F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429C0902447DB140037178F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8429C06D2447DB110037178F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429C0752447DB110037178F /* AppDelegate.swift in Sources */,
+				8429C0772447DB110037178F /* SceneDelegate.swift in Sources */,
+				8429C0792447DB110037178F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429C0832447DB140037178F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429C08C2447DB140037178F /* CovitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8429C08E2447DB140037178F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8429C0972447DB140037178F /* CovitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8429C0892447DB140037178F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8429C0702447DB110037178F /* Covit */;
+			targetProxy = 8429C0882447DB140037178F /* PBXContainerItemProxy */;
+		};
+		8429C0942447DB140037178F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8429C0702447DB110037178F /* Covit */;
+			targetProxy = 8429C0932447DB140037178F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8429C07F2447DB140037178F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8429C0802447DB140037178F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8429C0992447DB140037178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8429C09A2447DB140037178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8429C09C2447DB140037178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Covit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Covit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.Covit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8429C09D2447DB140037178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Covit/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Covit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.Covit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8429C09F2447DB140037178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CovitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.CovitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Covit.app/Covit";
+			};
+			name = Debug;
+		};
+		8429C0A02447DB140037178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CovitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.CovitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Covit.app/Covit";
+			};
+			name = Release;
+		};
+		8429C0A22447DB140037178F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CovitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.CovitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Covit;
+			};
+			name = Debug;
+		};
+		8429C0A32447DB140037178F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CovitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.edu.delasalle.CovitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Covit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8429C06C2447DB110037178F /* Build configuration list for PBXProject "Covit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429C0992447DB140037178F /* Debug */,
+				8429C09A2447DB140037178F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429C09B2447DB140037178F /* Build configuration list for PBXNativeTarget "Covit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429C09C2447DB140037178F /* Debug */,
+				8429C09D2447DB140037178F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429C09E2447DB140037178F /* Build configuration list for PBXNativeTarget "CovitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429C09F2447DB140037178F /* Debug */,
+				8429C0A02447DB140037178F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8429C0A12447DB140037178F /* Build configuration list for PBXNativeTarget "CovitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8429C0A22447DB140037178F /* Debug */,
+				8429C0A32447DB140037178F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8429C0692447DB110037178F /* Project object */;
+}
